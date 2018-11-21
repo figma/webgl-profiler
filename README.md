@@ -96,4 +96,9 @@ profiler.start()
 profiler.stopAndDownload()
 ```
 
+This will produce a profile that looks something like this in speedscope:
+
+![example profile](https://user-images.githubusercontent.com/150329/48817461-75acb780-ecfb-11e8-8468-46ba4edf9c2d.png)
+
+
 You can see a full working example in [`example.html`](example.html).
