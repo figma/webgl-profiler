@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "none",
+    "strict": true,
+    "noUnusedLocals": true,
+    "lib": ["dom", "es5", "es2015.promise"],
+    "target": "es5"
+  }
+}

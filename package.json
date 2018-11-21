@@ -1,0 +1,14 @@
+{
+  "name": "webgl-profiler",
+  "version": "1.0.0",
+  "description": "A GPU-side profiler using EXT_disjoint_timer_query",
+  "main": "webgl-profiler.umd.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Jamie Wong",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.1.6"
+  }
+}
