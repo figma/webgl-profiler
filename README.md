@@ -29,11 +29,11 @@ This comes with an annoying list of limitations:
   indicated as zero on GPUs I've tested. The total elapsed times still seem
   ballpark correct when comparing against active GPU time in a Chrome
   performance profile, however. This could either mean that the GPU times of
-  other commands are negligible, or that the EXT_disjoint_timer_query is lying
+  other commands are negligible, or that the `EXT_disjoint_timer_query` is lying
   in this cases :|
 
 - Some graphics card/driver combinations seem to have unresolvably buggy
-  behavior. This unfortunately includes the NVIDIA GeForce GT 750M, which is
+  behavior. This unfortunately includes the NVIDIA GeForce GT 750M, which was
   actually the very first card I tested this on, since it's the discrete
   graphics card on my MacBook Pro! If you try to use the profiler with this
   card, it will hard crash to avoid providing confusing information. Other
